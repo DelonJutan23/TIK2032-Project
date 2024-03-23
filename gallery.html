@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #FFF1E9; 
+        }
+        header {
+            background-color: #000; 
+            color: #fff;
+            padding: 12px;
+            text-align: center;
+        }
+        footer {
+            background-color: #FFD5D5; 
+            color: #000;
+            padding: 12px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-img {
+            width: 100%;
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 5px;
+        }
+        .gallery-caption {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .gallery-heading {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        nav ul li a:hover {
+            color: #94a494;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delon's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar1.png" alt="gambar1">
+                <div class="gallery-caption">Kota Tua, Jakarta</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar2.png" alt="gambar2">
+                <div class="gallery-caption">Gouverneur Kantoor, Kota Tua</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar3.png" alt="gambar3">
+                <div class="gallery-caption">Gouverneur Kantoor, Kota Tua</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar4.png" alt="gambar4">
+                <div class="gallery-caption">Gouverneur Kantoor, Kota Tua</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar5.png" alt="gambar5">
+                <div class="gallery-caption">Bandung</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar6.png" alt="gambar6">
+                <div class="gallery-caption">Bandung</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar7.png" alt="gambar7">
+                <div class="gallery-caption">Bandung</div>
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-img" src="images/gambar8.png" alt="gambar8">
+                <div class="gallery-caption">Museum Konferensi Asia Afrika, Bandung</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delon's Website </p>
+    </footer>
+</body>
+</html>
