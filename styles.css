@@ -1,0 +1,480 @@
+.portfolio-simple {
+    background-color: #f9faff;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.portfolio-simple .div {
+    background-color: #D0E1EB;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .portfolio-simple .div {
+        width: 100%;
+    }
+}
+
+.portfolio-simple .buttons a {
+    text-decoration: none;
+}
+
+.portfolio-simple .footer-icons {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: absolute;
+    top: 660px;
+    font-size: 20px;
+    left: 474px;
+}
+
+.portfolio-simple .footer-icons-a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: absolute;
+    top: 2000px;
+    font-size: 20px;
+    left: 474px;
+}
+
+.portfolio-simple .icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.portfolio-simple .img {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.portfolio-simple .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito-Regular", Helvetica;
+    font-weight: 400;
+    color: rgba(130, 130, 130, 1);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio-simple .overlap-group {
+    position: absolute;
+    width: auto;
+    height: 629px;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-simple .image {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 520px;
+    background-image: url(./img/yellow-bg.svg);
+    background-size: 100% 100%;
+}
+
+.portfolio-simple .image-2 {
+    position: absolute;
+    width: 640px;
+    height: 560px;
+    top: -8px;
+    left: 95px;
+}
+
+.portfolio-simple .header {
+    position: absolute;
+    width: auto;
+    height: 56px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.portfolio-simple .header .text-wrapper-2{
+    left: 40px;
+}
+
+.portfolio-simple .text-wrapper-2 {
+    position: absolute;
+    top: 11px;
+    left: 127px;
+    font-family: "Comfortaa-Bold", Helvetica;
+    font-weight: 700;
+    color: #3E69B2;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32.4px;
+    white-space: nowrap;
+}
+
+.portfolio-simple .nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 48px;
+    position: absolute;
+    top: 14px;
+    left: 908px;
+}
+
+.portfolio-simple .tab-default {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.portfolio-simple .sobre {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: rgba(37, 40, 43, 1);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.portfolio-simple .tab-default a {
+    text-decoration: none;
+}
+
+.portfolio-simple .tab-default a:hover {
+    text-decoration: none;
+}
+  
+.portfolio-simple .intro {
+    display: flex;
+    flex-direction: column;
+    width: 486px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+
+.portfolio-simple .content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+    left: -80px;
+}
+
+.portfolio-simple .title {
+    position: relative;
+    width: 486px;
+    margin-top: -1px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 700;
+    color: rgba(37, 40, 43, 1);
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 100%;
+    font-style: normal;
+}
+
+.portfolio-simple .subheadline {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    top: -35px;
+    flex: 0 0 auto;
+}
+
+.portfolio-simple .text {
+    width: 486px;
+    margin-top: -1px;
+    font-family: "Nunito-Regular", Helvetica;
+    font-weight: 400;
+    color: rgba(130, 130, 130, 1);
+    font-size: 24px;
+    line-height: 36px;
+    position: relative;
+    letter-spacing: 0;
+}
+
+.portfolio-simple .buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    top: -15px;
+    flex: 0 0 auto;
+}
+
+.portfolio-simple .button-primary {
+    background-color: #75A0E8;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 8px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+}
+
+.portfolio-simple .text-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: rgba(37, 40, 43, 1);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+}
+
+.portfolio-simple .button-secondary {
+    border: 2px solid;
+    border-color: rgba(37, 40, 43, 1);
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 8px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+}
+
+.portfolio-simple .text-3 {
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: rgba(37, 40, 43, 1);
+    font-size: 18px;
+    line-height: 27px;
+    white-space: nowrap;
+    position: relative;
+    letter-spacing: 0;
+}
+
+.portfolio-simple .projects {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: absolute;
+    top: 50px;
+    left: 132px;
+}
+
+.portfolio-simple .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.portfolio-simple .text-4 {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 700;
+    color: rgba(37, 40, 43, 1);
+    font-size: 48px;
+    text-align: center;
+    line-height: 72px;
+    white-space: nowrap;
+    position: relative;
+    letter-spacing: 0;
+    font-style: normal;
+}
+
+.portfolio-simple .rectangle {
+    position: relative;
+    width: 100px;
+    height: 4px;
+    background-color: #75A0E8;
+    border-radius: 2px;
+}
+
+.portfolio-simple .project {
+    display: flex;
+    width: 992px;
+    height: 524px;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0px 6px 64px #7090b01a;
+}
+
+.portfolio-simple .project-nfo {
+    position: relative;
+    width: 496px;
+    height: 524px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.portfolio-simple .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    top: 146px;
+    left: 50px;
+}
+
+.portfolio-simple .text-5 {
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Playfair Display-Bold", Helvetica;
+    font-weight: 700;
+    color: rgba(37, 40, 43, 1);
+    font-size: 40px;
+    line-height: 60px;
+    position: relative;
+    letter-spacing: 0;
+    top: -20px;
+}
+
+.portfolio-simple .p {
+    align-self: stretch;
+    font-family: "Nunito-Regular", Helvetica;
+    font-weight: 400;
+    color: rgba(130, 130, 130, 1);
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    letter-spacing: 0;
+    top: -20px;
+}
+
+.portfolio-simple .boto-secudrio {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 8px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: rgba(37, 40, 43, 1);
+}
+
+.portfolio-simple .pexels-elly {
+    position: relative;
+    width: 496px;
+    height: 524px;
+}
+
+.portfolio-simple .project-2 {
+    display: inline-flex;
+    height: 524px;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0px 6px 64px #7090b01a;
+}
+
+.portfolio-simple .rectangle-2 {
+    position: relative;
+    width: 496px;
+    height: 524px;
+    object-fit: cover;
+}
+
+.portfolio-simple .frame-3 {
+    display: flex;
+    width: 407px;
+    align-items: flex-start;
+    gap: 24px;
+    top: 160px;
+    left: 50px;
+    flex-direction: column;
+    position: relative;
+}
+
+a.text-2 {
+    text-decoration: none;
+  }
+
+/* Definisikan animasi */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Terapkan animasi ke elemen */
+  .portfolio-simple .project {
+    animation-name: slideInFromLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
+  }
+
+  /* Definisikan animasi */
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Terapkan animasi ke elemen */
+  .portfolio-simple .image-2 {
+    animation-name: slideInFromRight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
+  }
+
+  /* Definisikan animasi */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Terapkan animasi ke elemen */
+  .portfolio-simple .title {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
+  }
+  
