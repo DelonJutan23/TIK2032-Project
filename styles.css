@@ -1,186 +1,63 @@
-.portfolio-simple {
+body {
+    padding: 0;
+    margin: 0;
     background-color: #f9faff;
-    display: flex;
-    flex-direction: row;
-    width: auto;
-}
-
-.portfolio-simple .div {
-    background-color: #D0E1EB;
-    width: auto;
-    height: auto;
-    position: relative;
-}
-
-@media screen and (max-width: 1440px) {
-    .portfolio-simple .div {
-        width: 100%;
-    }
-}
-
-.portfolio-simple .buttons a {
-    text-decoration: none;
-}
-
-.portfolio-simple .footer-icons {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    position: absolute;
-    top: 660px;
-    font-size: 20px;
-    left: 474px;
-}
-
-.portfolio-simple .footer-icons-a {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    position: absolute;
-    top: 2000px;
-    font-size: 20px;
-    left: 474px;
-}
-
-.portfolio-simple .icons {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.portfolio-simple .img {
-    position: relative;
-    width: 48px;
-    height: 48px;
-}
-
-.portfolio-simple .text-wrapper {
-    position: relative;
-    width: fit-content;
-    font-family: "Nunito-Regular", Helvetica;
-    font-weight: 400;
-    color: rgba(130, 130, 130, 1);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.portfolio-simple .overlap-group {
-    position: absolute;
-    width: auto;
-    height: 629px;
-    top: 0;
-    left: 0;
-}
-
-.portfolio-simple .image {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    top: 0;
-    left: 520px;
-    background-image: url(./img/yellow-bg.svg);
-    background-size: 100% 100%;
-}
-
-.portfolio-simple .image-2 {
-    position: absolute;
-    width: 640px;
-    height: 560px;
-    top: -8px;
-    left: 95px;
 }
 
 .portfolio-simple .header {
-    position: absolute;
-    width: auto;
-    height: 56px;
+    color: #000;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Comfortaa-Bold", Helvetica;
+    font-size: 18px;
+    position: fixed;
     top: 0;
     left: 0;
-    background-color: transparent;
+    width: 100%;
+    z-index: 999;
 }
 
-.portfolio-simple .header .text-wrapper-2{
-    left: 40px;
-}
-
-.portfolio-simple .text-wrapper-2 {
-    position: absolute;
-    top: 11px;
-    left: 127px;
+.portfolio-simple .header h1 {
     font-family: "Comfortaa-Bold", Helvetica;
     font-weight: 700;
-    color: #3E69B2;
+    color: #2153A8;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 32.4px;
     white-space: nowrap;
+    margin-left: 40px;
 }
 
-.portfolio-simple .nav {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 48px;
-    position: absolute;
-    top: 14px;
-    left: 908px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.portfolio-simple .tab-default {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-    position: relative;
-    flex: 0 0 auto;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-.portfolio-simple .sobre {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: rgba(37, 40, 43, 1);
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Comfortaa-Bold", Helvetica;
     font-size: 18px;
-    letter-spacing: 0;
-    line-height: 28px;
-    white-space: nowrap;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
-.portfolio-simple .tab-default a {
-    text-decoration: none;
-}
-
-.portfolio-simple .tab-default a:hover {
-    text-decoration: none;
-}
-  
-.portfolio-simple .intro {
-    display: flex;
-    flex-direction: column;
-    width: 486px;
-    align-items: flex-start;
-    gap: 12px;
-    position: absolute;
-    top: 110px;
-    left: 120px;
+nav ul li a:hover {
+    color: #000;
 }
 
 .portfolio-simple .content {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    position: relative;
-    flex: 0 0 auto;
-    left: -80px;
+    margin-top: 150px;
+    padding: 20px;
+    padding-left: 50px;
 }
 
 .portfolio-simple .title {
@@ -274,6 +151,15 @@
     letter-spacing: 0;
 }
 
+footer {
+    color: black;
+    padding: 12px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Projects */
+
 .portfolio-simple .projects {
     display: inline-flex;
     flex-direction: column;
@@ -282,7 +168,7 @@
     gap: 80px;
     position: absolute;
     top: 50px;
-    left: 132px;
+    left: 150px;
 }
 
 .portfolio-simple .frame {
@@ -419,62 +305,67 @@
 
 a.text-2 {
     text-decoration: none;
-  }
+}
 
 /* Definisikan animasi */
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
-      opacity: 0;
+        transform: translateX(-100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  /* Terapkan animasi ke elemen */
-  .portfolio-simple .project {
+}
+
+/* Terapkan animasi ke elemen */
+.portfolio-simple .project {
     animation-name: slideInFromLeft;
     animation-duration: 1s;
-    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
-  }
+    animation-fill-mode: forwards;
+    /* Biarkan elemen tetap di posisi akhir animasi */
+}
 
-  /* Definisikan animasi */
+/* Definisikan animasi */
 @keyframes slideInFromRight {
     0% {
-      transform: translateX(100%);
-      opacity: 0;
+        transform: translateX(100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  /* Terapkan animasi ke elemen */
-  .portfolio-simple .image-2 {
+}
+
+/* Terapkan animasi ke elemen */
+.portfolio-simple .image-2 {
     animation-name: slideInFromRight;
     animation-duration: 1s;
-    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
-  }
+    animation-fill-mode: forwards;
+    /* Biarkan elemen tetap di posisi akhir animasi */
+}
 
-  /* Definisikan animasi */
+/* Definisikan animasi */
 @keyframes fadeIn {
     0% {
-      opacity: 0;
-      transform: translateY(-20px);
+        opacity: 0;
+        transform: translateY(-20px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
-  /* Terapkan animasi ke elemen */
-  .portfolio-simple .title {
+}
+
+/* Terapkan animasi ke elemen */
+.portfolio-simple .title {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-fill-mode: forwards; /* Biarkan elemen tetap di posisi akhir animasi */
-  }
-  
+    animation-fill-mode: forwards;
+    /* Biarkan elemen tetap di posisi akhir animasi */
+}
