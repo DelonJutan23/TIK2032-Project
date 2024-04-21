@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(changeColor, 1000);
   
     const buttons = document.querySelectorAll('.buttons a');
-
+  
     buttons.forEach(function(button) {
       button.addEventListener('mousedown', function() {
         button.style.backgroundColor = '#555';
@@ -19,6 +19,27 @@ document.addEventListener("DOMContentLoaded", function() {
   
       button.addEventListener('mouseup', function() {
         button.style.backgroundColor = ''; 
+      });
+    });
+  
+    const headerTitle = document.querySelector('header h1');
+  
+    headerTitle.addEventListener('mouseenter', function() {
+      headerTitle.style.color = '#00008B'; 
+    });
+  
+    headerTitle.addEventListener('mouseleave', function() {
+      headerTitle.style.color = ''; 
+    });
+  
+    const footerIcons = document.querySelectorAll('.footer-icons p');
+  
+    footerIcons.forEach(function(icon) {
+      icon.addEventListener('click', function() {
+        icon.style.color = '#00008B'; 
+        setTimeout(function() {
+          icon.style.color = ''; 
+        }, 1000);
       });
     });
   });

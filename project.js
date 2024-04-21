@@ -3,12 +3,22 @@ document.addEventListener("DOMContentLoaded", function() {
   
     projects.forEach(function(project) {
       project.addEventListener('mouseenter', function() {
-        project.style.transform = 'scale(1.05)'; 
+        project.style.transform = 'scale(1.05)';
         project.style.transition = 'transform 0.5s ease';
       });
       project.addEventListener('mouseleave', function() {
-        project.style.transform = 'scale(1)'; 
+        project.style.transform = 'scale(1)';
       });
+    });
+  
+    projects.forEach(function(project) {
+      project.addEventListener('click', function() { 
+        alert('Project clicked!');
+      });
+    });
+  
+    window.addEventListener('scroll', function() {
+      console.log('Halaman digulir'); 
     });
   });
   
