@@ -24,7 +24,7 @@
             while ($articlePrev = $resultBlogPreview->fetch_assoc()) {
             ?>
             <div class="blog-post">
-                <h2 class="blog-title"><a href="<?php echo $articlePrev['link']; ?>"><?php echo $articlePrev['title']; ?></a></h2>
+                <h2 class="blog-title"><a href="<?php echo $articlePrev['link'];?>"><?php echo $articlePrev['title']; ?></a></h2>
                 <p class="blog-content"><?php echo $articlePrev['content']; ?></p>
             </div>
             <?php
