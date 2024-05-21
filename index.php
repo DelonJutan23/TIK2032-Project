@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require_once 'connection.php'; ?>
     <title>Delon's Zone</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,7 +15,7 @@
         <nav>
           <ul>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog.php">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
